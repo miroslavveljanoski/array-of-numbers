@@ -20,7 +20,7 @@ const addNumberHandler = () => {
 
   console.log('numbers (before):', typeof numbers, '\n', numbers);
   // add the user's number to the main shared array of numbers
-  _;
+  numbers.push(userNumber);
   console.log('numbers (after):', typeof numbers, '\n', numbers);
 
   displayArrayHandler();
