@@ -3,16 +3,17 @@ console.log('--- loading: add number');
 
 const addNumberHandler = () => {
   console.log('\n--- calling: add number handler');
-
-  const userInput = prompt("please enter a number");
+  // read user input
+  const userInput = prompt("please enter a number to add");
   console.log('userInput:', typeof userInput, '\n', userInput);
-  if (_) {
+  if (userInput === null) {
     return;
   }
 
-  const userNumber = _;
+  const userNumber = Number(userInput);
   console.log('userNumber:', typeof userNumber, '\n', userNumber);
-  if (_) {
+  // validate user number
+  if (isNaN(userNumber)) {
     alert(`${userInput} is not a valid number`);
     return;
   }
