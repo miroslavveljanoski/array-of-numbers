@@ -27,4 +27,23 @@ _A User can see my initial repository and live demo_
 - Push the changes to GitHub
 - Turn on GitHub Pages
 
----
+## 1. Add Number
+
+__As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.__
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'add-number'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+Complete addNumberHandler function by reading user input, validate it and finally add it to the shared array of numbers.
