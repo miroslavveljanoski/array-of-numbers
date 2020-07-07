@@ -4,7 +4,7 @@ console.log('--- loading: add number');
 const addNumberHandler = () => {
   console.log('\n--- calling: add number handler');
 
-  const userInput = _;
+  const userInput = prompt("please enter a number");
   console.log('userInput:', typeof userInput, '\n', userInput);
   if (_) {
     return;
