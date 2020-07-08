@@ -69,3 +69,27 @@ No styling has been added.
 
 - Write the findGreaterThan function logic. Then complete findGreaterThanHandler function.
 - Validate if the filteredNumbers array is empty.
+
+## 4. Find numbers less than X
+
+__As a site visitor, I want to be able to filter  numbers which are less than user number.__
+
+> assigned to Murielle
+
+### Repo
+
+This user story has been developed through a branch called 'find-less-than'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the find less than function logic. 
+- Complete the hanHandler function.
+- test.
