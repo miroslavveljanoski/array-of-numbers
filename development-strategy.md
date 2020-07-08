@@ -8,7 +8,7 @@ A basic web page aim to learn JavaScript, testing and developed collaboratively 
 
 ## Wireframe
 
-![wireframe](img/cal-wirefame.png)
+![wireframe](img/array.png)
 
 ## 0. Set-Up
 
@@ -29,7 +29,7 @@ _A User can see my initial repository and live demo_
 
 ## 1. Add Number
 
-__As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.__
+**As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.**
 
 > assigned to Eltayeb
 
@@ -49,7 +49,7 @@ Complete addNumberHandler function by reading user input, validate it and finall
 
 ## 2. Find all numbers greater than X
 
-__As a site visitor, I want to be able filter all numbers which are greater than entered user number.__
+**As a site visitor, I want to be able filter all numbers which are greater than entered user number.**
 
 > assigned to Eltayeb
 
@@ -69,6 +69,31 @@ No styling has been added.
 
 - Write the findGreaterThan function logic. Then complete findGreaterThanHandler function.
 - Validate if the filteredNumbers array is empty.
+
+## 3. Style Main Page
+
+**As a site visitor, I want to see a fancy website.**
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed through a branch called 'style'.
+
+### HTML
+
+- add header and section semantic tags
+- add bootstrap links and font family links
+- use bootstrap grid
+
+### CSS
+
+- add background img
+- style buttons
+
+### javascript
+
+-Nothing has changed
 
 ## 4. Find numbers less than X
 
