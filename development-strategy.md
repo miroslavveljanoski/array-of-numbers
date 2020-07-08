@@ -30,9 +30,8 @@ _A User can see my initial repository and live demo_
 ## 1. Add Number
 
 __As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.__
-> assigned to Eltayeb
 
-### Repo
+> assigned to Eltayeb
 
 This user story has been developed through a branch called 'add-number'.
 
@@ -47,3 +46,26 @@ No styling has been added.
 ### javascript
 
 Complete addNumberHandler function by reading user input, validate it and finally add it to the shared array of numbers.
+
+## 2. Find all numbers greater than X
+
+__As a site visitor, I want to be able filter all numbers which are greater than entered user number.__
+
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'find-greater-than'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the findGreaterThan function logic. Then complete findGreaterThanHandler function.
+- Validate if the filteredNumbers array is empty.
