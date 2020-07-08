@@ -20,6 +20,11 @@ const findGreaterThan = (arrOfNumbers, lowValue) => {
   }
 
   // write the logic!
+  let filteredNumbers = [];
+  for(let number of arrOfNumbers){
+    if(number > lowValue) filteredNumbers.push(number)
+  }
+return filteredNumbers;
 };
 
 
