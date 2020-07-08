@@ -8,7 +8,7 @@ A basic web page aim to learn JavaScript, testing and developed collaboratively 
 
 ## Wireframe
 
-![wireframe](img/cal-wirefame.png)
+![wireframe](img/array.png)
 
 ## 0. Set-Up
 
@@ -29,7 +29,8 @@ _A User can see my initial repository and live demo_
 
 ## 1. Add Number
 
-__As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.__
+**As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.**
+
 > assigned to Eltayeb
 
 ### Repo
