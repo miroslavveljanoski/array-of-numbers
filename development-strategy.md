@@ -27,4 +27,45 @@ _A User can see my initial repository and live demo_
 - Push the changes to GitHub
 - Turn on GitHub Pages
 
----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 2. Find all numbers greater than X
+
+__As a site visitor, I want to be able filter all numbers which are greater than entered user number.__
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'find-greater-than'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the findGreaterThan function logic. Then complete findGreaterThanHandler function.
+- Validate if the filteredNumbers array is empty.
