@@ -94,6 +94,12 @@ const findGreaterThanHandler = () => {
 
   const filteredNumbers = findGreaterThan(numbers, userNumber);
   console.log('filteredNumbers:', typeof filteredNumbers, '\n', filteredNumbers);
+  if(filteredNumbers.length === 0){
+    alert(`There are no numbers greater than ${userNumber}`)
+  }
+  else{
+    displayArrayHandler(filteredNumbers, `numbers greater than ${userNumber}`);
+  }
 
-  displayArrayHandler(filteredNumbers, `numbers greater than ${userNumber}`);
+  
 };
