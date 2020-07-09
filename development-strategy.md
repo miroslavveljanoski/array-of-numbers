@@ -94,3 +94,26 @@ This user story has been developed through a branch called 'style'.
 ### javascript
 
 -Nothing has changed
+
+## 4. Display all numbers in the array
+
+**As a site visitor, I want to be able to display all numbers that user has added.**
+
+> assigned to Miroslav
+
+### Repo
+
+This user story has been developed on a branch called 'display-array'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the logic for the function `reduceForAlert` and pass all tests.
+- When a user click on the button _Display_, the alert should pop up with all numbers that user has added.
