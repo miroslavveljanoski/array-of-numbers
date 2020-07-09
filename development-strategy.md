@@ -8,7 +8,7 @@ A basic web page aim to learn JavaScript, testing and developed collaboratively 
 
 ## Wireframe
 
-![wireframe](img/cal-wirefame.png)
+![wireframe](img/array.png)
 
 ## 0. Set-Up
 
@@ -27,4 +27,70 @@ _A User can see my initial repository and live demo_
 - Push the changes to GitHub
 - Turn on GitHub Pages
 
----
+## 1. Add Number
+
+**As a site visitor, I want to be able to add numbers by clicking on 'add a number' button.**
+
+> assigned to Eltayeb
+
+This user story has been developed through a branch called 'add-number'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+Complete addNumberHandler function by reading user input, validate it and finally add it to the shared array of numbers.
+
+## 2. Find all numbers greater than X
+
+**As a site visitor, I want to be able filter all numbers which are greater than entered user number.**
+
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'find-greater-than'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the findGreaterThan function logic. Then complete findGreaterThanHandler function.
+- Validate if the filteredNumbers array is empty.
+
+## 3. Style Main Page
+
+**As a site visitor, I want to see a fancy website.**
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed through a branch called 'style'.
+
+### HTML
+
+- add header and section semantic tags
+- add bootstrap links and font family links
+- use bootstrap grid
+
+### CSS
+
+- add background img
+- style buttons
+
+### javascript
+
+-Nothing has changed
