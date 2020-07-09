@@ -85,16 +85,13 @@ const removeNumberHandler = () => {
 
 	const userInput = prompt('type the number you want to remove');
 	console.log('userInput:', typeof userInput, '\n', userInput);
-	if (userInput === null || userInput === '') {
+	// check value is or empty or string Number.isNaN(NaN)-> true
+	if (userInput === null || userInput === '' || Number.isNaN(Number(userInput))) {
 		return alert('input is not number');
 	}
 
 	const userNumber = Number(userInput);
 	console.log('userNumber:', typeof userNumber, '\n', userNumber);
-	if (Number.isNaN(userNumber)) {
-		alert(`${userInput} is not a valid number`);
-		return;
-	}
 
 	if (numbers.includes(userNumber)) {
 		let check = removeNumber(numbers, userNumber);
