@@ -169,3 +169,27 @@ No styling has been added.
 
 - Write the logic for the function `reduceForAlert` and pass all tests.
 - When a user click on the button _Display_, the alert should pop up with all numbers that user has added.
+
+## 7. Find the Average
+
+__As a site visitor, I want to be able to see the calculated average of all the numbers in the memory__
+
+> assigned to Nadia
+
+### Repo
+
+This user story has been developed through a branch called 'average'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the logic for Reduce to Average function
+- Write some if-condition
+- Test the function

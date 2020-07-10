@@ -16,6 +16,49 @@ const reduceToAverage = (arrOfNumbers) => {
   }
 
   // write the logic
+
+  // Solution 1: the simplest: create a variable for the summary of Array values using reducing method;
+  // create a variable for the average that calculates using previous variable;
+  // create a condition for an empty Array using less than or equal to; 
+  
+  // let total = 0;
+  //  for (let item of arrOfNumbers) {
+  //   total += item;
+  //  }
+
+  //  let average = total / arrOfNumbers.length;
+
+  // if (arrOfNumbers.length <= 0) {
+  //   return 0;
+  // } else {
+  //   return average;
+  // }
+
+  // Solution 2: two line solution, same logic as solution 1 but in a cleaner and elegant way
+  // play with the condition for an empty Array using more than
+
+  // let total = arrOfNumbers.reduce(  (anyName, someName) => anyName + someName, 0);
+  // let average = total / arrOfNumbers.length;
+
+  // if (arrOfNumbers.length > 0) {
+  //   return average;
+  // } else {
+  //   return 0;
+  // } 
+
+
+  // Solution 3: one line solution I like the most: we declare a variable for the average of the Array
+  // the variables calculates an average of the Array using reducing method
+  // we compare Array.length to 0 in order to return 0 for an empty array
+  
+  let average = arrOfNumbers.reduce (( a, b) => a + b, 0) / arrOfNumbers.length;
+  
+  if (arrOfNumbers.length > 0) {
+    return average;
+  } else {
+    return 0;
+  }
+  
 };
 
 
