@@ -1,7 +1,6 @@
 'use strict';
 console.log('--- loading: display array');
 
-
 /**
  * converts an array of strings into an alert-friendly string
  *  each number is on a new line
@@ -9,17 +8,25 @@ console.log('--- loading: display array');
  * @returns {string} a string of numbers on newlines
  */
 const reduceForAlert = (arrOfNumbers) => {
+  //debugger;
   if (!Array.isArray(arrOfNumbers)) {
     throw new TypeError('parameter must be an array');
   }
-  if (!arrOfNumbers.every(entry => typeof entry === 'number')) {
-    throw new TypeError('parameter must contain only numbers')
+  if (!arrOfNumbers.every((entry) => typeof entry === 'number')) {
+    throw new TypeError('parameter must contain only numbers');
   }
 
   // write the logic!
+  let returnedValue = '';
+  if (arrOfNumbers.length === 0) {
+    return '';
+  } else {
+    for (let value of arrOfNumbers) {
+      returnedValue += value + '\n';
+    }
+    return returnedValue;
+  }
 };
-
-
 
 describe('reduceForAlert: reduces an array of numbers into an alert-friendly string', () => {
   describe('correctly reduces the array', () => {
@@ -50,12 +57,11 @@ describe('reduceForAlert: reduces an array of numbers into an alert-friendly str
       assert.throws(shouldThrow, TypeError, 'parameter must be an array');
     });
     it('throws an error if the argument contains non-numbers', () => {
-      const shouldThrow = () => reduceForAlert([1, 2, '3', 4,]);
+      const shouldThrow = () => reduceForAlert([1, 2, '3', 4]);
       assert.throws(shouldThrow, TypeError, 'parameter must contain only numbers');
     });
   });
 });
-
 
 // this handler works, no ned to change it.  Just to study it!
 const displayArrayHandler = (arrayToDisplay = numbers, message = 'all saved numbers') => {
@@ -68,7 +74,6 @@ const displayArrayHandler = (arrayToDisplay = numbers, message = 'all saved numb
 
   alert(`${message}:\n${stringToDisplay}`);
 };
-
 
 /* about default parameters
   https://codeburst.io/understanding-default-parameters-in-javascript-5f3c4dcfc838
