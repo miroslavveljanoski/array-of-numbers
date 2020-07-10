@@ -118,3 +118,32 @@ No styling has been added.
 - Write the find less than function logic. 
 - Complete the hanHandler function.
 - test.
+
+## 5. Remove numbers from Array
+
+**As a site visitor, I want to remove numbers from list that I want.**
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed through a branch called 'remove.
+
+### HTML
+
+- Nothing has changed
+
+### CSS
+
+- Nothing has changed
+
+### javascript
+
+- Add ForEach loop to remove numbers from the array
+
+- Check with includes() built-in function to control the number is in the array(result true or false)
+
+- Add some condition with if
+
+- Add alert() to show number is not in the array or removed from the array
+
